@@ -2,6 +2,7 @@
 # These files are not needed for world building.
 icon.png
 session.lock
+paper-world.yml
 
 # Player files
 # Not actually part of the world project itself.
