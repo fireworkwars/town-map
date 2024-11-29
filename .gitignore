@@ -3,6 +3,7 @@
 icon.png
 session.lock
 paper-world.yml
+uid.dat
 
 # Player files
 # Not actually part of the world project itself.
