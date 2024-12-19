@@ -1,5 +1,7 @@
 # Firework Wars Town Map
 
+[![Project Status: Maintained](./assets/images/badges/status.svg)](./)
+
 > A map for the Minecraft minigame '[Firework Wars](https://github.com/EsotericFoundation/firework-wars-plugin)' featuring a wild west desert town surrounded by farms and forested mountains.
 
 ## License
