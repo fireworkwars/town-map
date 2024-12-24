@@ -1,8 +1,11 @@
 # Town Map Changelog
+## Release v0.1.0-alpha
 - Add town map
 - Configure town map
+## Release v0.1.0
 - Add chests & configure
 - Add Warden shrine & configure
+## Release v1.0.0
 - Set game rules
 - Set world spawn
 - Set difficulty to hard
@@ -17,4 +20,4 @@
 - Update the shears hanging in the barn
 - Remove all tripwire that support carpets
 - Make Chaos Insurgency horses more accessible
-- Replace all built-in items with newer versions to fix stacking issues **(Release v1.0.0)**
+- Replace all built-in items with newer versions to fix stacking issues
