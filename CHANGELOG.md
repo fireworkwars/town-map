@@ -1,0 +1,20 @@
+# Town Map Changelog
+- Add town map
+- Configure town map
+- Add chests & configure
+- Add Warden shrine & configure
+- Set game rules
+- Set world spawn
+- Set difficulty to hard
+- Increase Warden shrine protection radius
+- Add built-in custom items
+- Spawn horses
+- Reconfigure (Intervals and durations of game events)
+- Add saddles to barrels
+- Add horse armor to barrels
+- Make saddles & horse armor significantly rarer
+- Update the heavy armor under the well
+- Update the shears hanging in the barn
+- Remove all tripwire that support carpets
+- Make Chaos Insurgency horses more accessible
+- Replace all built-in items with newer versions to fix stacking issues **(^^^ Release v1.0.0)**
