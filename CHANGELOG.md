@@ -17,4 +17,4 @@
 - Update the shears hanging in the barn
 - Remove all tripwire that support carpets
 - Make Chaos Insurgency horses more accessible
-- Replace all built-in items with newer versions to fix stacking issues **(^^^ Release v1.0.0)**
+- Replace all built-in items with newer versions to fix stacking issues **(Release v1.0.0)**
