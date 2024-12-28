@@ -26,3 +26,7 @@ DIM1
 # Datapacks
 # Firework Wars does not use any datapacks.
 datapacks
+
+# POI (points of interest)
+# This is information about villagers and their workstations - useless for Firework Wars.
+poi
