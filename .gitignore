@@ -22,3 +22,7 @@ xaeromap.txt
 # Servers don't load worlds like this anyway, so these files are pointless.
 DIM-1
 DIM1
+
+# Datapacks
+# Firework Wars does not use any datapacks.
+datapacks
