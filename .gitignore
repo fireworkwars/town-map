@@ -30,3 +30,7 @@ datapacks
 # POI (points of interest)
 # This is information about villagers and their workstations - useless for Firework Wars.
 poi
+
+# Data
+# Despite the name, this isn't actually too important.
+data
