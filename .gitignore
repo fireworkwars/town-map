@@ -34,3 +34,7 @@ poi
 # Data
 # Despite the name, this isn't actually too important.
 data
+
+# "Old" data files
+# They don't actually do anything.
+*.dat_old
