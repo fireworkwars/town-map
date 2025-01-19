@@ -43,7 +43,7 @@
             "color": {
                 "color": "GREEN"
             },
-            "miniMessageString": "<dark_green>Chaos Insurgency</dark_green>",
+            "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
             "spawnLocation": {
                 "worldName": "town",
                 "x": 390.5,
@@ -57,7 +57,7 @@
             "color": {
                 "color": "BLUE"
             },
-            "miniMessageString": "<blue>SCP Foundation</blue>",
+            "miniMessageString": "<blue>Gunpowder Foundation</blue>",
             "spawnLocation": {
                 "worldName": "town",
                 "x": 139.5,
