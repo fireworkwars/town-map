@@ -21,3 +21,9 @@
 - Remove all tripwire that support carpets
 - Make Chaos Insurgency horses more accessible
 - Replace all built-in items with newer versions to fix stacking issues
+## Release v1.1.0
+- Update custom items in item frames
+- Add secret enchanted golden apple in the bank gold pile
+- Remove unintended supply drop minecarts
+- Replace door trap throwable TNT with a rocket launcher ammo
+- Update arena config
