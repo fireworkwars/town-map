@@ -1,613 +1,124 @@
 {
-    "worlds": [
-        "town"
-    ],
-    "gameRules": {
-        "doFireTick": false,
-        "disableRaids": true,
-        "doDaylightCycle": false,
-        "doInsomnia": false,
-        "doMobLoot": false,
-        "doEntityDrops": true,
-        "doMobSpawning": false,
-        "doPatrolSpawning": false,
-        "doTraderSpawning": false,
-        "doVinesSpread": false,
-        "doWeatherCycle": false,
-        "mobGriefing": true,
-        "randomTickSpeed": 0,
-        "spawnChunkRadius": 16
-    },
-    "countDownSeconds": 15,
-    "gameDurationMinutes": 12.5,
-    "totalChestRefills": 12,
-    "minimumPlayerCount": 2,
-    "maximumPlayerCount": 20,
-    "waitingAreaLocation": {
-        "worldName": "town",
-        "x": 231.5,
-        "y": 58,
-        "z": 80.5,
-        "yaw": -179.9,
-        "pitch": 0
-    },
-    "worldBorderInformation": {
-        "centerX": 305,
-        "centerZ": 25,
-        "radius": 225,
-        "endgameRadius": 40,
-        "secondsToReachEndgameRadius": 180
-    },
-    "teamInformation": [
-        {
-            "color": {
-                "color": "GREEN"
-            },
-            "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
-            "spawnLocation": {
-                "worldName": "town",
-                "x": 390.5,
-                "y": 57,
-                "z": 160.5,
-                "yaw": 120,
-                "pitch": 0
-            }
+        "worlds": [
+            "town"
+        ],
+        "mapType": "TOWN",
+        "name": "<!i><dark_green>Town #1</dark_green>",
+        "description": "<!i><gray>A larger and more exciting map,</gray>\n<!i><gray>leading to much more action and</gray>\n<!i><gray>interesting battles.</gray>",
+        "chunkCornersPerWorld": {
+            "town": [
+                { "worldName": "town", "x": 2, "z": 17 },
+                { "worldName": "town", "x": 35, "z": -13 }
+            ]
         },
-        {
-            "color": {
-                "color": "BLUE"
-            },
-            "miniMessageString": "<blue>Gunpowder Foundation</blue>",
-            "spawnLocation": {
-                "worldName": "town",
-                "x": 139.5,
-                "y": 57,
-                "z": 75.5,
-                "yaw": -70,
-                "pitch": 0
-            }
-        }
-    ],
-    "chestLocations": [
-        {
-            "worldName": "town",
-            "x": 174,
-            "y": 58,
-            "z": 98,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 178,
-            "y": 57,
-            "z": 103,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 170,
-            "y": 61,
-            "z": 104,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 164,
-            "y": 64,
-            "z": 59,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 398,
-            "y": 57,
-            "z": 138,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 387,
-            "y": 57,
-            "z": 133,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 393,
-            "y": 61,
-            "z": 132,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 449,
-            "y": 57,
-            "z": 88,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 280,
-            "y": 57,
-            "z": 101,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 287,
-            "y": 57,
-            "z": 112,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 280,
-            "y": 57,
-            "z": 131,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 158,
-            "y": 57,
-            "z": 136,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 193,
-            "y": 56,
-            "z": 175,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 229,
-            "y": 57,
-            "z": 159,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 203,
-            "y": 58,
-            "z": 75,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 219,
-            "y": 58,
-            "z": 76,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 229,
-            "y": 58,
-            "z": 75,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 249,
-            "y": 58,
-            "z": 115,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 251,
-            "y": 58,
-            "z": 126,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 244,
-            "y": 58,
-            "z": 134,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 260,
-            "y": 57,
-            "z": 180,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 233,
-            "y": 58,
-            "z": 184,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 216,
-            "y": 58,
-            "z": 144,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 212,
-            "y": 58,
-            "z": 126,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 210,
-            "y": 58,
-            "z": 118,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 211,
-            "y": 58,
-            "z": 105,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 210,
-            "y": 58,
-            "z": 98,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 141,
-            "y": 57,
-            "z": 193,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 186,
-            "y": 57,
-            "z": 59,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 234,
-            "y": 57,
-            "z": 52,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 238,
-            "y": 62,
-            "z": 82,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 247,
-            "y": 57,
-            "z": 68,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 261,
-            "y": 57,
-            "z": 82,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 259,
-            "y": 57,
-            "z": 134,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 269,
-            "y": 57,
-            "z": 86,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        },
-        {
-            "worldName": "town",
-            "x": 209,
-            "y": 57,
-            "z": 132,
-            "maxTotalValue": 35,
-            "maxValuePerItem": 28
-        }
-    ],
-    "supplyDropData": {
-        "supplyDropLocations": [
+        "countDownSeconds": 15,
+        "gameDurationMinutes": 12.5,
+        "totalChestRefills": 10,
+        "minimumPlayerCount": 2,
+        "maximumPlayerCount": 30,
+        "waitingAreaLocation": { "worldName": "town", "x": 231.5, "y": 58, "z": 80.5, "yaw": -179.9, "pitch": 0 },
+        "teamInformation": [
             {
-                "worldName": "town",
-                "x": 226.5,
-                "y": 71,
-                "z": 122.5,
-                "yaw": 0,
-                "pitch": 0
+                "color": {"color": "GREEN"},
+                "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
+                "spawnLocation": { "worldName": "town", "x": 390.5, "y": 57, "z": 160.5, "yaw": 120, "pitch": 0 }
             },
             {
-                "worldName": "town",
-                "x": 250.5,
-                "y": 58,
-                "z": -8.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 391.5,
-                "y": 58,
-                "z": 1.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 399.5,
-                "y": 56,
-                "z": 74.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 370.5,
-                "y": 57,
-                "z": 205.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 152.5,
-                "y": 61,
-                "z": 229.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 99.5,
-                "y": 71,
-                "z": 232.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 97.5,
-                "y": 57,
-                "z": 144.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 97.5,
-                "y": 57,
-                "z": 11.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 146.5,
-                "y": 76,
-                "z": -47.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 218.5,
-                "y": 78,
-                "z": -77.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 147.5,
-                "y": 96,
-                "z": -83.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 116.5,
-                "y": 99,
-                "z": -93.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 123.5,
-                "y": 116,
-                "z": -186.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 173.5,
-                "y": 115,
-                "z": -163.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 206.5,
-                "y": 148,
-                "z": -164.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 243.5,
-                "y": 144,
-                "z": -148.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 277.5,
-                "y": 146,
-                "z": -108.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 315.5,
-                "y": 140,
-                "z": -106.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 306.5,
-                "y": 164,
-                "z": -129.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 256.5,
-                "y": 164,
-                "z": -171.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 375.5,
-                "y": 126,
-                "z": -179.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 416.5,
-                "y": 130,
-                "z": -164.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 446.5,
-                "y": 130,
-                "z": -143.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 506.5,
-                "y": 133,
-                "z": -125.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 475.5,
-                "y": 118,
-                "z": -104.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 445.5,
-                "y": 118,
-                "z": -63.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 365.5,
-                "y": 158,
-                "z": -126.5,
-                "yaw": 0,
-                "pitch": 0
-            },
-            {
-                "worldName": "town",
-                "x": 260.5,
-                "y": 71,
-                "z": 183.5,
-                "yaw": 0,
-                "pitch": 0
+                "color": {"color": "BLUE"},
+                "miniMessageString": "<blue>Gunpowder Foundation</blue>",
+                "spawnLocation": { "worldName": "town", "x": 139.5, "y": 57, "z": 75.5, "yaw": -70, "pitch": 0 }
             }
         ],
-        "supplyDropIntervalTicks": 550,
-        "supplyDropIntervalRandomness": 150
-    },
-    "endgameData": {
-        "endgameStartMinutes": 7.5,
-        "warnBeforeEndgameSeconds": 60,
-        "wardenSpawnLocation": {
-            "worldName": "town",
-            "x": 249.5,
-            "y": 69,
-            "z": -79.5,
-            "yaw": 0,
-            "pitch": 0
+        "chestLocations": [
+            { "worldName": "town", "x": 174, "y": 58, "z": 98, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 178, "y": 57, "z": 103, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 170, "y": 61, "z": 104, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 164, "y": 64, "z": 59, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 398, "y": 57, "z": 138, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 387, "y": 57, "z": 133, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 393, "y": 61, "z": 132, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 449, "y": 57, "z": 88, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 280, "y": 57, "z": 101, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 287, "y": 57, "z": 112, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 280, "y": 57, "z": 131, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 158, "y": 57, "z": 136, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 193, "y": 56, "z": 175, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 229, "y": 57, "z": 159, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 203, "y": 58, "z": 75, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 219, "y": 58, "z": 76, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 229, "y": 58, "z": 75, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 249, "y": 58, "z": 115, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 251, "y": 58, "z": 126, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 244, "y": 58, "z": 134, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 260, "y": 57, "z": 180, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 233, "y": 58, "z": 184, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 216, "y": 58, "z": 144, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 212, "y": 58, "z": 126, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 210, "y": 58, "z": 118, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 211, "y": 58, "z": 105, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 210, "y": 58, "z": 98, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 141, "y": 57, "z": 193, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 186, "y": 57, "z": 59, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 234, "y": 57, "z": 52, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 238, "y": 62, "z": 82, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 247, "y": 57, "z": 68, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 261, "y": 57, "z": 82, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 259, "y": 57, "z": 134, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 269, "y": 57, "z": 86, "maxTotalValue": 35, "maxValuePerItem": 28 },
+            { "worldName": "town", "x": 209, "y": 57, "z": 132, "maxTotalValue": 35, "maxValuePerItem": 28 }
+        ],
+        "supplyDropData": {
+            "supplyDropLocations": [
+                { "worldName": "town", "x": 226.5, "y": 71, "z": 122.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 250.5, "y": 58, "z": -8.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 391.5, "y": 58, "z": 1.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 399.5, "y": 56, "z": 74.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 370.5, "y": 57, "z": 205.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 152.5, "y": 61, "z": 229.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 99.5, "y": 71, "z": 232.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 97.5, "y": 57, "z": 144.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 97.5, "y": 57, "z": 11.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 146.5, "y": 76, "z": -47.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 218.5, "y": 78, "z": -77.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 147.5, "y": 96, "z": -83.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 116.5, "y": 99, "z": -93.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 123.5, "y": 116, "z": -186.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 173.5, "y": 115, "z": -163.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 206.5, "y": 148, "z": -164.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 243.5, "y": 144, "z": -148.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 277.5, "y": 146, "z": -108.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 315.5, "y": 140, "z": -106.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 306.5, "y": 164, "z": -129.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 256.5, "y": 164, "z": -171.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 375.5, "y": 126, "z": -179.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 416.5, "y": 130, "z": -164.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 446.5, "y": 130, "z": -143.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 506.5, "y": 133, "z": -125.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 475.5, "y": 118, "z": -104.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 445.5, "y": 118, "z": -63.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 365.5, "y": 158, "z": -126.5, "yaw": 0, "pitch": 0 },
+                { "worldName": "town", "x": 260.5, "y": 71, "z": 183.5, "yaw": 0, "pitch": 0 }
+            ],
+            "supplyDropIntervalTicks": 800,
+            "supplyDropIntervalRandomness": 150
         },
-        "wardenShrineProtectionRadius": 13,
-        "warnBeforeGameEndSeconds": 60
+        "endgameData": {
+            "endgameStartMinutes": 7.5,
+            "warnBeforeEndgameSeconds": 60,
+            "warnBeforeGameEndSeconds": 60
+        },
+        "worldBorderInformation": {
+            "centerX": 305,
+            "centerZ": 25,
+            "radius": 225,
+            "endgameRadius": 40,
+            "secondsToReachEndgameRadius": 180
+        },
+        "wardenData": {
+            "enabled": true,
+            "wardenSpawnMinutes": 7.5,
+            "warnBeforeWardenSpawnSeconds": 60,
+            "wardenSpawnLocation": { "worldName": "town", "x": 249.5, "y": 69, "z": -79.5, "yaw": 0, "pitch": 0 },
+            "wardenShrineProtectionRadius": 13
+        }
     }
-}
