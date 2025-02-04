@@ -19,12 +19,12 @@
     "waitingAreaLocation": { "worldName": "town", "x": 231.5, "y": 58, "z": 80.5, "yaw": -179.9, "pitch": 0 },
     "teamInformation": [
         {
-            "color": {"color": "GREEN"},
+            "color": { "color": "GREEN" },
             "miniMessageString": "<dark_green>Firework Insurgency</dark_green>",
             "spawnLocation": { "worldName": "town", "x": 390.5, "y": 57, "z": 160.5, "yaw": 120, "pitch": 0 }
         },
         {
-            "color": {"color": "BLUE"},
+            "color": { "color": "BLUE" },
             "miniMessageString": "<blue>Gunpowder Foundation</blue>",
             "spawnLocation": { "worldName": "town", "x": 139.5, "y": 57, "z": 75.5, "yaw": -70, "pitch": 0 }
         }
