@@ -14,7 +14,7 @@
     "countDownSeconds": 15,
     "gameDurationMinutes": 12.5,
     "totalChestRefills": 10,
-    "minimumPlayerCount": 2,
+    "minimumPlayerCount": 8,
     "maximumPlayerCount": 30,
     "waitingAreaLocation": { "worldName": "town", "x": 231.5, "y": 58, "z": 80.5, "yaw": -179.9, "pitch": 0 },
     "teamInformation": [
