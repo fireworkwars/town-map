@@ -34,3 +34,8 @@
 - Added a tunnel between the TNT chamber and the town well
 ## Release v1.2.1
 - Update `arena_config.json` to increase default minimum player count
+## Release v1.3.0
+- Replace rocket launcher in door trap with a throwable TNT again
+- Fix armor stand in TNT bunker having 64 rocket launcher ammo
+- Add some more TNT in the TNT bunker
+- Rotate heavy armor item frame under the well by 45 degrees
