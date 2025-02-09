@@ -27,3 +27,10 @@
 - Remove unintended supply drop minecarts
 - Replace door trap throwable TNT with a rocket launcher ammo
 - Update arena config
+## Release v1.2.0
+- Fixed corrupted `level.dat` file
+- Made some minor adjustments around the map (unclosed trapdoors etc.)
+- Added a TNT chamber under the weaponery with a secret chimney entrance
+- Added a tunnel between the TNT chamber and the town well
+## Release v1.2.1
+- Update `arena_config.json` to increase default minimum player count
