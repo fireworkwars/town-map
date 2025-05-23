@@ -130,5 +130,6 @@
         "wardenSpawnLocation": { "worldName": "town", "x": 249.5, "y": 69, "z": -79.5, "yaw": 0, "pitch": 0 },
         "wardenShrineProtectionRadius": 13,
         "playersPerTeamUntilWardenDespawn": 0
-    }
+    },
+    "itemData": []
 }
